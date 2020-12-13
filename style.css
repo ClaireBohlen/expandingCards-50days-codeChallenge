@@ -51,7 +51,7 @@ body{
     transition: opactity 0.3s ease-in 0.4s; /* Doesnt fade in until the card is expanded */
 }
 
-@media(max-width: 480){
+@media(max-width: 480px){
     .container{
         width: 100vw; /* If the screen is under 480px this will give us some extra room when we have smaller screens */
     }
