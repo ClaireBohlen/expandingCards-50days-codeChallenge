@@ -48,7 +48,7 @@ body{
 }
 .panel.active h3{
     opacity: 1; /* We will see the text when clicked  */
-    transition: opactity 0.3s ease-in 0.4s;
+    transition: opactity 0.3s ease-in 0.4s; /* Doesnt fade in until the card is expanded */
 }
 
 @media(max-width: 480){
@@ -59,4 +59,13 @@ body{
     .panel:nth-of-type(4),.panel:nth-of-type(5){
         display: none; /* We are removing 2 panels when we are displaying a smaller screen  */
     }
+}
+button{
+    width: 80px;
+    height: 20px;
+    border-radius: 50px;
+    background: black;
+    color: white;
+    text-decoration: none;
+    outline: none;
 }
